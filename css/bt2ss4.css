@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(230, 214, 71);
+    background-color: white;
+    margin-left: 10px;
+}
+
+
+p{
+margin-left: 10px;
+
+}
+
+.paragraph1 {
+    color: blue;
+    background-color: white;
+}
+
+.paragraph2 {
+    color: red;
+    background-color: white;
+}
+
+.paragraph3 {
+    color: black;
+    background-color: bisque;
+    min-height: 40px;
+   
+    
+
+}

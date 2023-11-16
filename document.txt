@@ -1,0 +1,26 @@
+-css cụm từ viết tắt của Cascading style sheets
+-có 3 cách để nhúng css vào html
++ c1: Css inline là cách sử dụng thuộc tính(attribute) style bên trong cặp thẻ mở của thẻ html
++c2: css internal là cách tạo một thẻ style bên trong thẻ head của file html
++c3: css external là cách tạo ra 1 file có đuôi .css và sau đấy link vào file html thông qua thẻ link được đặt bên trong cặp thẻ head html
+
+=> trong 3 cách css inline có độ ưu tiên cao nhất
+Css internal, external độ ưu tiên như nhau, cái nào khai báo sau thì được lựa chọn
+
+-Css selector( Bộ chọn Css)
++ css theo tên thẻ
++ Css theo id: Trong một thuộc tính id không thể xuất hiện id 2(kí hiệu khi sử dụng là dấu #ten_id)
++css theo class: trong một thuộc tính class có thẻ có nhiều class khác nhau.mỗi css class khác nhau có 1 thuôc tính css khác nhau( kí hiệu.ten_class)
+
+quy tắc đặt tên class: 
++ tên class có ý nghĩa
++nếu tên clss có nhiều từu thì các từ đó được nối với nhau bằng kí tự- vd font-40, text-blue.
+Mô hình box model
++Gồm 4 tp chính: content, padding, border, margin
++content là phần chứa nội dung của khối
++padding là phềm đẹm nội dung
++border: là phần từ padding đến margin
++margin là phần ben ngoài.
+- đơn vị: px và %
++px là đơn vị tuyệt đối k thay đổi
++ % tương đối( có thể thay đổi)
